@@ -1,11 +1,14 @@
-
-
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Main from "./components/body/Body";
 function App() {
  
 
   return (
     <>
-     <h1>hi</h1>
+    <Header/>
+    <Main/>
+     <Footer/>
     </>
   )
 }
