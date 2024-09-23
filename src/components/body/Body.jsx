@@ -3,7 +3,11 @@ const Main= () =>{
     return(
         <>
         <div  className={styles.note}>
-            topic
+            <div className={styles.fnote}>
+                <p className={styles.ptag}>Title</p>
+                <p>Take a note...</p>
+                <button type="submit" className={styles.Badd}>Add</button>
+            </div>
         </div>
         </>
     )
