@@ -3,7 +3,6 @@ import Main from "./Body";
 
 import Notes from "../../Card";
 const Cards=(props) =>{
-
     return(
         <>
          <div className={styles.fnote}>

@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import Main from "./components/body/Body";
 import Notes from "./Card";
 import Cards from "./components/body/Cards";
+import Test from "./components/Test"
 function App() {
  
 
@@ -11,8 +12,8 @@ function App() {
     
     <Header/>
     <Main/>
-
-     <Footer/>
+    <Footer/>
+  
     </>
   )
 }
