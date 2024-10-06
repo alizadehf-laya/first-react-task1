@@ -2,17 +2,21 @@
     background-color: rgb(214, 224, 192);
     padding: 10px;
     height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
 }
 .fnote{
-    width: 300px;
-    height: 100px;
+    width: 320px;
+    height: 130px;
     background-color: white;
     box-shadow:  2px 5px 5px 2px gray;
-    padding: 10px;
+    padding: 4px;
     border-radius: 5px;
-    color: gray;
+    color: rgb(63, 62, 62);
     font-family: sans-serif;
-    
+    margin-top: 10px;
+ 
 }
 .ptag{
     font-size: larger;
@@ -27,6 +31,6 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 230px;
-    left: 270px;
+    top: 250px;
+    left: 330px;
 }

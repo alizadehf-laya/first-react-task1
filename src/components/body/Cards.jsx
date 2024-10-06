@@ -1,5 +1,7 @@
 import styles from "./body.module.css";
 import Main from "./Body";
+
+import Notes from "../../Card";
 const Cards=(props) =>{
 
     return(
