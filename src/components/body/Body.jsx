@@ -6,6 +6,7 @@ const Main= () =>{
     const uniqcard= (Notes) =>{
         return(
             <Cards 
+            key={Notes.key}
             title={Notes.title} 
             content={Notes.content}
             />
